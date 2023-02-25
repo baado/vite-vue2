@@ -30,7 +30,8 @@
         cols="12"
       >
         <h2 class="headline font-weight-bold mb-3">
-          What's next?
+        <Hoge label="ああああああああああああああ" />
+          What's next?？
         </h2>
 
         <v-row justify="center">
@@ -92,6 +93,7 @@
 </template>
 
 <script lang="ts">
+  import Hoge from '@/components/Hoge.vue'
   export default {
     name: 'HelloWorld',
 
